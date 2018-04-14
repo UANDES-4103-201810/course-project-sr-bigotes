@@ -19,91 +19,7 @@
     <SUITE FILE_PATH="coverage/Assignment@Development__Assignment.rcov" NAME="Development: Assignment Coverage Results" MODIFIED="1523666391067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Assignment" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RailsDependency/Role" pinned="false" current-in-tab="false">
-        <entry file="uml://RailsDependency/Role">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>RailsDependency</ID>
-              <OriginalElement>Role</OriginalElement>
-              <nodes>
-                <node x="20.34259259259258" y="500.0">User</node>
-                <node x="63.34259259259258" y="1000.0">Permission</node>
-                <node x="107.33333333333333" y="0.0">Promise</node>
-                <node x="87.63425925925925" y="202.0">Project</node>
-                <node x="0.0" y="798.0">Role</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="User" target="Role">
-                  <point x="43.0" y="124.0" />
-                  <point x="149.34259259259258" y="773.0" />
-                  <point x="161.25" y="773.0" />
-                  <point x="53.75" y="-76.0" />
-                </edge>
-                <edge source="User" target="Project">
-                  <point x="0.0" y="-124.0" />
-                  <point x="106.34259259259258" y="475.0" />
-                  <point x="123.80092592592592" y="475.0" />
-                  <point x="-72.33333333333333" y="124.0" />
-                </edge>
-                <edge source="Permission" target="Role">
-                  <point x="-80.625" y="-51.5" />
-                  <point x="90.21759259259258" y="975.0" />
-                  <point x="53.75" y="975.0" />
-                  <point x="-53.75" y="76.0" />
-                </edge>
-                <edge source="Promise" target="Project">
-                  <point x="43.75" y="76.0" />
-                  <point x="238.58333333333331" y="177.0" />
-                  <point x="250.38425925925924" y="177.0" />
-                  <point x="54.25" y="-124.0" />
-                </edge>
-                <edge source="Role" target="Permission">
-                  <point x="53.75" y="76.0" />
-                  <point x="161.25" y="975.0" />
-                  <point x="143.96759259259258" y="975.0" />
-                  <point x="-26.875" y="-51.5" />
-                </edge>
-                <edge source="Role" target="User">
-                  <point x="-53.75" y="-76.0" />
-                  <point x="53.75" y="773.0" />
-                  <point x="63.34259259259258" y="773.0" />
-                  <point x="-43.0" y="124.0" />
-                </edge>
-                <edge source="Project" target="Permission">
-                  <point x="72.33333333333331" y="124.0" />
-                  <point x="268.46759259259255" y="475.0" />
-                  <point x="236.5" y="475.0" />
-                  <point x="236.5" y="975.0" />
-                  <point x="251.46759259259258" y="975.0" />
-                  <point x="80.625" y="-51.5" />
-                </edge>
-                <edge source="Project" target="Promise">
-                  <point x="-54.25" y="-124.0" />
-                  <point x="141.88425925925924" y="177.0" />
-                  <point x="151.08333333333331" y="177.0" />
-                  <point x="-43.75" y="76.0" />
-                </edge>
-                <edge source="Permission" target="Project">
-                  <point x="26.875" y="-51.5" />
-                  <point x="197.71759259259258" y="975.0" />
-                  <point x="225.5" y="975.0" />
-                  <point x="225.5" y="475.0" />
-                  <point x="196.13425925925924" y="475.0" />
-                  <point x="0.0" y="124.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.684772929652716" x="-670.4954486345903" y="340.48114434330296" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Association fields</Category>
-                <Category>Migration fields</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="role.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/role.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/promise.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -144,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -190,43 +106,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -357,15 +237,16 @@
       <option name="presentableId" value="Default" />
       <updated>1523661693315</updated>
       <workItem from="1523661694547" duration="5181000" />
+      <workItem from="1523672553732" duration="119000" />
+      <workItem from="1523672720502" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5181000" />
+    <option name="totallyTimeSpent" value="5346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="954" extended-state="7" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="926" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" weight="0.20518602" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -373,37 +254,37 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32928312" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32928312" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33333334" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20518602" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -416,18 +297,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/permission.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="92" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/promise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/role.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/permission.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/project.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="92" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/promise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180413230214_create_permissions.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180413225821_create_roles.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180413225813_create_users.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -509,12 +454,13 @@
               <point x="0.0" y="124.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.684772929652716" x="-670.4954486345903" y="340.48114434330296" />
+          <settings layout="Hierarchic Group" zoom="0.684772929652716" x="-670.0" y="340.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Association fields</Category>
-            <Category>Migration fields</Category>
+            <Category />
+            <Category />
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -535,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/promise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -549,7 +495,7 @@
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
